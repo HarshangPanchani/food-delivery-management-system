@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Permanent+Marker&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+}
+.nav {
+  height: 100px;
+  /* width: 500px; */
+  background-color: rgb(243, 134, 57);
+}
+.nav,
+h2 {
+  color: white;
+  font-size: 30px;
+  font-family: Dosis, Lato;
+  text-align: left;
+
+}
+.navv {
+  padding-top: 20px;
+}
+.nav,
+h1 {
+  color: white;
+  text-align: center;
+  font-weight: 400;
+  /* font-family: Lato, Dois; */
+  font-family: Tilt Warp;
+  /* margin: 1px */
+  display:block;
+}
+.navv,
+h1 {
+  font-size: 40px;
+}
+hr {
+  height: 10px;
+  background-color: rgb(255, 212, 212);
+}
+.sidebar {
+  background-color: rgb(243, 134, 57);
+  /* width: 220px;  */
+  width: 258px;
+  /* width: 220px; */
+  height: 695px;
+}
+.list {
+  padding-left: 10px;
+  text-align: left;
+  list-style: none;
+}
+.container {
+  top: 122px;
+  /* left: 258px; */
+  left: 291px;
+  /* left: 258px; */
+  position: absolute;
+  width: 12px;
+  height: 675px;
+  background-color: rgb(255, 255, 255);
+}
+.ah{
+  /* display: inline; */
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+  font-weight: 800;
+  border-radius: 5px;
+  line-height: 70px;
+  /* background: #4E9CAF; */
+  
+}
+/* li a{
+  width: 236px;
+  border-radius: 20px;
+  text-align: left;
+  font-size: 18px;
+} */
+a:hover{
+  /* color: black; */
+  background-color: red;
+
+}
+.sidebar,p{
+  /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+  font-family: 'Lucida Sans';
+  text-align: center;
+  font-weight: 500;
+  font-size: 18px;
+  
+}
+.hr{
+  background-color: rgb(255, 212, 212);
+  height: 2px;
+  
+}
+.heading{
+  font-size: 30px;
+  /* font-family: TiltWarp; */
+  font-family: 'Tilt Warp', cursive;
+  text-align: center;
+  font-weight: 400;
+}
